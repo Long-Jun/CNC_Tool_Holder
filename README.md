@@ -1,4 +1,4 @@
-# CNC Toolholder Roughness Gauge 📏  
+# CNC Toolholder Roughness Gauge
 刀把粗度計感測系統（多版本程式碼）
 
 本專案為 **CNC Toolholder Roughness Gauge 刀把粗度量測系統** 的韌體程式集，依照通訊方式與功能演進分為多個版本：
