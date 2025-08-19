@@ -17,51 +17,12 @@ This repository contains firmware for the **CNC Toolholder Roughness Gauge** sys
 
 ---
 
-# CNC Toolholder Roughness Gauge 📏  
-刀把粗度計感測系統（多版本程式碼）
-
-本專案為 **CNC Toolholder Roughness Gauge** 刀把粗度量測系統的程式碼集，根據通訊方式與演進歷程分為多個版本：  
-
-- ✅ **CNC_v4**：透過 USB 傳輸資料的最新穩定版本（有線通訊）  
-- ✅ **CNC_BLE_v1**：以 Bluetooth Low Energy（BLE）廣播感測資料的版本（無線通訊）  
-- ⚠️ 其他版本（CNC_v1～v3）為早期實作，已停止維護（Deprecated）
-
-This repository contains multiple code versions of the CNC Toolholder Roughness Gauge system, developed by NTUT UTL & SPIE Lab.  
-Each version supports different communication methods:
-
-- ✅ **CNC_v4** – Latest USB-based implementation (wired communication)  
-- ✅ **CNC_BLE_v1** – BLE-based implementation for wireless data broadcasting  
-- ⚠️ Earlier versions (CNC_v1 to v3) are deprecated and no longer maintained.
-
----
-
 ## 🧰 Requirements | 使用環境
 
 - ✅ Arduino IDE 1.8.x / 2.x
 - ✅ Seeeduino XIAO nRF52840 Sense
 - ✅ LDC1614 Inductance-to-Digital Converter (via I2C)
 - ✅ Optional: Bluetooth/BLE support via Bluefruit (for BLE versions)
-
----
-
-## 📁 Folder Structure | 資料夾結構
-
-```
-CNC_Tool_Holder/
-├── CNC_v1/
-│   └── src/RAK12029_LDC1614.*
-├── CNC_v2/
-│   └── src/RAK12029_LDC1614.*
-├── CNC_v3/
-│   └── src/RAK12029_LDC1614.*
-├── CNC_v4/
-│   └── src/
-│       ├── UTL_LDC1614.*
-│       ├── UTL_Event.*
-│       └── UTL_Timer.*
-├── CNC_BLE_v1/
-│   └── src/UTL_LDC1614.*, UTL_Timer.*
-```
 
 ---
 
